@@ -22,7 +22,8 @@ body {
      
     height: 250px;
     background-attachment: fixed; 
-    background-position: center;
+    /* background-position: center -100px, right 400px; */
+    background-position: center bottom -50px;
     background-repeat: no-repeat;
     background-size: cover;  
     }
