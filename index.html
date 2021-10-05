@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris test</title>
+
+
+</head>
+
+<body>
+    <div class="estrutura">
+        <aside class="lateral">
+            <h3>Tetris dos cria</h3>
+            <div>
+                <p>
+                    Pontuação: <span id="score"></span>
+                </p>
+                <p>
+                    Velocidade: <span id="speed"></span>
+                </p>
+            </div>
+        </aside>
+        <main class="conteudo">
+            <canvas id="tetris" width="320" height="610"></canvas>
+
+        </main>
+    </div>
+</body>
+
+
+<script src="piece.js"></script>
+<script src="skeletons.js"></script>
+<script src="functions.js"></script>
+<script src="game.js"></script>
+
+</html>

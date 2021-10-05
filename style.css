@@ -1,0 +1,36 @@
+body {
+    background-color: #4b72f3;
+    color: #FFFFFF;
+}
+
+.estrutura {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+#score #speed {
+    display: inline-block;
+}
+
+.lateral {
+    grid-column: 1/2;
+}
+
+.conteudo {
+    grid-column: 2/-1;
+}
+
+div {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+}
